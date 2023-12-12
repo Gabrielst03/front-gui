@@ -1,5 +1,7 @@
 import '../styles/globals.css'
 import 'tailwindcss/tailwind.css';
+  import { ToastContainer } from 'react-toastify';
+  import 'react-toastify/dist/ReactToastify.css';
 
 import React from 'react'
 import { Windmill } from '@roketid/windmill-react-ui'
@@ -10,8 +12,10 @@ function MyApp({ Component, pageProps }: AppProps) {
   if (!process.browser) React.useLayoutEffect = React.useEffect;
 
   return (
+
     <Windmill usePreferences={true}>
-      <Component {...pageProps} />
+        <ToastContainer theme='dark'/>
+        <Component {...pageProps} />
     </Windmill>
   )
 }

@@ -26,19 +26,25 @@ import DropdownIcon from './dropdown.svg'
 import OutlinePersonIcon from './outlinePerson.svg'
 import OutlineCogIcon from './outlineCog.svg'
 import OutlineLogoutIcon from './outlineLogout.svg'
+import TeacherIcon from "./teacher.svg";
+import CourseIcon from "./course.svg";
+import ClassRoomIcon from "./classroom.svg";
 
 export {
   ButtonsIcon,
   CardsIcon,
   ChartsIcon,
+  ClassRoomIcon,
   FormsIcon,
   HomeIcon,
   ModalsIcon,
   PagesIcon,
+  CourseIcon,
   TablesIcon,
   HeartIcon,
   EditIcon,
   TrashIcon,
+  TeacherIcon,
   ForbiddenIcon,
   GithubIcon,
   TwitterIcon,
@@ -56,7 +62,7 @@ export {
   OutlinePersonIcon,
   OutlineCogIcon,
   OutlineLogoutIcon,
-}
+};
 
 interface IIcon{
   icon: string

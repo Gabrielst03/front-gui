@@ -25,7 +25,7 @@ function LoginPage() {
           <main className='flex items-center justify-center p-6 sm:p-12 md:w-1/2'>
             <div className='w-full'>
               <h1 className='mb-4 text-xl font-semibold text-gray-700 dark:text-gray-200'>
-                Login
+                Entrar
               </h1>
               <Label>
                 <span>Email</span>
@@ -37,7 +37,7 @@ function LoginPage() {
               </Label>
 
               <Label className='mt-4'>
-                <span>Password</span>
+                <span>Senha</span>
                 <Input
                   className='mt-1'
                   type='password'
@@ -47,35 +47,9 @@ function LoginPage() {
 
               <Link href='/example' passHref={true}>
                 <Button className='mt-4' block>
-                  Log in
+                  Entrar
                 </Button>
               </Link>
-
-              <hr className='my-8' />
-
-              <Button block layout='outline'>
-                <GithubIcon className='w-4 h-4 mr-2' aria-hidden='true' />
-                Github
-              </Button>
-              <Button className='mt-4' block layout='outline'>
-                <TwitterIcon className='w-4 h-4 mr-2' aria-hidden='true' />
-                Twitter
-              </Button>
-
-              <p className='mt-4'>
-                <Link href='/example/forgot-password'>
-                  <a className='text-sm font-medium text-purple-600 dark:text-purple-400 hover:underline'>
-                    Forgot your password?
-                  </a>
-                </Link>
-              </p>
-              <p className='mt-1'>
-                <Link href='/example/create-account'>
-                  <a className='text-sm font-medium text-purple-600 dark:text-purple-400 hover:underline'>
-                    Create account
-                  </a>
-                </Link>
-              </p>
             </div>
           </main>
         </div>
